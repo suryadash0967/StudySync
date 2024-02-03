@@ -616,7 +616,7 @@
     color: rgb(95, 95, 95);
 }
 
-.line{
+.line2{
     width: 90%;
     height: 2px;
     background-color: rgb(196, 196, 196);
@@ -626,11 +626,24 @@
     border-radius: 20px;
 }
 
+
+.line1{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(196, 196, 196);
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+
 .footpart1{
     display: flex;
     justify-content: space-around;
     gap: 2rem;
     padding: 3.5rem;
+    padding-top: 1.5rem;
     font-family: 'Poppins';
 }
 
