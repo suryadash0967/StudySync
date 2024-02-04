@@ -308,6 +308,7 @@
 
 .cardsintro {
     font-size: 0.8rem;
+    max-width: 35rem;
 }
 
 .container {
@@ -418,6 +419,9 @@
 @media (max-width:768px) {
     .container {
         grid-template-columns: 1fr;
+    }
+    .cardsintro{
+        max-width: 15rem;
     }
 }
 
