@@ -561,8 +561,9 @@
 #email {
     width: 12rem;
     height: 2.3rem;
-    border-radius: 4px;
+    border-radius: 6px;
     border: 1px solid gray;
+    outline: none;
     margin: 3px;
     padding: 5px;
 }
@@ -574,10 +575,15 @@
     height: 2.3rem;
     border: 1px solid gray;
     border-radius: 6px;
-    background-color: rgb(157, 53, 255);
+    background-color: rgb(125, 42, 202);
     font-family: 'Inter';
     color: white;
     font-weight: 600;
+}
+
+.button4:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .declare{
